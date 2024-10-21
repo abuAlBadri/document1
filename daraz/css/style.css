@@ -1,0 +1,107 @@
+*{
+    margin: auto;
+    font-family: sans-serif;
+}
+body{
+    background: #ededed;
+}
+.header{
+    height: 200px;
+    width: 1500px;
+    background: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+z-index: 100;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+    top: 0%;
+    left: 0%;
+    background-image: 100% 100%;
+}
+.search-bar{
+    height: 35px;
+    width: 450px;
+    background: #ededed;
+    margin-right: 150px;
+    border-radius: 75px;
+}
+.search-bar input{
+    height: 35px;
+    width: 450px;
+    background: #ededed;
+    font-size: 20px;
+    border-radius: 75px;
+    
+}
+.navbar a{
+    font-size: 30px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 50px;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: black;
+}
+.slider{
+    height: 400px;
+    width: 1500px;
+    background: #ededed;
+    animation-name: slider;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-duration: 10s;
+    background-size: 100% 100%;
+    display: flex;
+}
+@keyframes slider{
+    0%{background-image: url(../css/slider1.jfif);}
+    25%{background-image: url(../css/slider2.jfif);}
+    50%{background-image: url(../css/slider3.jfif);}
+    75%{background-image: url(../css/slider4.jfif);}
+    100%{background-image: url(../css/slider5.jfif);}
+}
+h1{
+    height: ;
+}
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    height: 1200px;
+    width: 1500px;
+    background: lightgray;
+    font-weight: 1000px;
+
+}
+.content a{
+    height: 350px;
+    width: 300px;
+    background: #ededed;
+    margin-left: 2%;
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+.content a img{
+    height: 300px;
+    width: 300px;
+
+}
+footer{
+    height: 150px;
+    width: 1500px;
+    background: orangered;
+}
